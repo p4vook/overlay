@@ -1,0 +1,11 @@
+diff -ru a/src/tools/arrow/arrowtool.h b/src/tools/arrow/arrowtool.h
+--- a/src/tools/arrow/arrowtool.h	2020-05-29 10:31:22.687887496 +0300
++++ b/src/tools/arrow/arrowtool.h	2020-05-29 10:32:16.725823476 +0300
+@@ -19,6 +19,7 @@
+ 
+ #include "src/tools/abstracttwopointtool.h"
+ #include <QPainter>
++#include <QPainterPath>
+ 
+ class ArrowTool : public AbstractTwoPointTool {
+     Q_OBJECT
