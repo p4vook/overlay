@@ -1,0 +1,12 @@
+diff -ruN a/Cargo.toml b/Cargo.toml
+--- a/Cargo.toml	2021-03-01 01:19:18.761590213 +0300
++++ b/Cargo.toml	2021-03-01 01:19:30.491726328 +0300
+@@ -61,7 +61,7 @@
+ version = "0.2.73"
+ 
+ [dependencies.librespot]
+-version = "0.1.1"
++version = "0.1.5"
+ features = ["with-tremor"]
+ default-features = false
+ 
